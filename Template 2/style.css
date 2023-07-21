@@ -1,0 +1,187 @@
+/* Navbar starts */
+.Navbar {
+  padding: 1.2rem;
+  height: 90px;
+  opacity: 0.7;
+  position: sticky;
+  top: 0px;
+  background-color: #333;
+  justify-content: space-between;
+}
+
+.Navbar a {
+  text-decoration: none;
+  color: white;
+}
+.Navbar li {
+  display: inline-block;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  margin-right: 5px;
+}
+.Navbar h1 {
+  font-size: 45px;
+  font-weight: 30px;
+}
+/* Navbar ends */
+
+/* reset style start */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Popins", sans-serif;
+  color:#fff;
+  background-color: #fff;
+}
+/* reset style ends */
+
+/* first page starts */
+.content {
+  padding: 350px;
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.hero {
+    background-image: url(images/hero.webp) ;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+.content h1{
+    font-family: cursive;
+}
+/* first page ends */
+/* second page starts */
+.hero-2{
+  text-align: center;
+}
+.jobs{
+  padding: 20px;
+  color: #333;
+}
+.icon{
+  padding: 30px;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: #333;
+}
+.icon i{
+  padding: 20px;
+  border-radius: 30px;
+}
+/* second page ends */
+
+/* third page starts */
+.stories{
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+.pages{
+  text-align: left;
+  font-family: cursive;
+}
+.column-1{
+  width: 60%;
+  font-family: cursive;
+  margin: 70px;
+  padding: 170px;
+  background-color: #c9c5c5;
+  color: #333;
+  text-align: justify;
+}
+.column-2{
+  margin-left: 1100px;
+  width: 350px;
+  height:2px;
+  flex-direction: column-reverse;
+}
+.image{
+  padding-bottom: 100px;  
+  width: 450px;
+  height: 550px;
+}
+.column-3{
+  width: 60%;
+  font-family: cursive;
+  margin-left: 500px;
+  padding: 170px;
+  background-color: #c9c5c5;
+  color: #333;
+  text-align: left;
+}
+.column-4{
+  padding-bottom: 40px;
+  margin: 70px;
+  width: 350px;
+  height:2px;
+  flex-direction: column-reverse;
+}
+/* third page ends */
+
+/* fourth page starts */
+.poster{
+  text-align: center;
+  color: #333;
+}
+.fouth-page{
+  padding-top: 10px;
+}
+/* fourth page ends */
+
+/* team info starts */
+.team{
+  color: #333;
+  text-align: center;
+  padding: 30px;
+}
+
+.team-info{
+  align-items: center;
+  justify-content: center;
+}
+/* team info ends */
+
+/* contact info starts */
+.contacts{
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+input[type="text"],
+input[type="text"],
+input[type="email"],
+input[type="number"]{
+  padding: 10px;
+  border: 0px;
+  width: 1200px;
+  height: 50px;
+}
+.img{
+  height: 600px;
+  width: 450px;
+  padding-top: 30px;
+}
+.image-info{
+  width: 35%;
+  height: 0px;
+  padding: 30px;
+}
+.info{
+  height: 570px;
+  font-family: cursive;
+  margin-left: 500px;
+  padding: 60px;
+  background-color: #c9c5c5;
+  color: #333;
+  text-align: start;
+}
+/* contact info ends */
+

@@ -1,0 +1,158 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+#objective{
+    flex-grow: 1;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: end;
+    /* margin: 5px; */
+}
+#links{
+    justify-content: end;
+}
+.header{
+    padding: 5px;
+    margin: 5px;
+}
+.objective  i{
+    margin-top: 5px;
+}
+
+/* infor starts */
+.info{
+    justify-content: center;
+    align-items: center;
+}
+/* info ends */
+
+
+/* main starts */
+.main{
+    padding: 0px 15px;
+}
+
+.col-auto{
+    flex-basis: 50%;
+    padding: 30px;
+}
+.education h3, .education p{
+    margin: 5px 0px;
+}
+.education-footer{
+    justify-content: space-between;
+}
+.education > div{
+    margin: 15px;
+}
+
+
+/* skills starts */
+.skills ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+.skills ul li{
+    background-color: #838485;
+    color: #fff;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+/* skills ends */
+/* tools starts */
+.tools ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+.tools ul li{
+    background-color: #838485;
+    color: #fff;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+/* tools ends */
+/* frameworks starts */
+.frameworks ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+.frameworks ul li{
+    background-color: #838485;
+    color: #fff;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+/* frameworks ends */
+/* Cocurricular starts */
+.Cocurricular ul li{
+    /* margin: 10px 10px; */
+    padding: 7px;
+}
+/* Cocurricular ends */
+/* projects starts */
+.projects dl dt{
+    font-size: 20px;
+    font-weight: bold;
+}
+.projects dt{
+    margin: 10px;
+    padding: 10px;
+    font-weight: 400;
+    font-size:900px;
+      
+}
+/* project ends */
+
+/* main ends */
+
+/* media queries starts */
+@media screen and (max-width: 600px) {
+    #wrap{
+        /* display: block;   */
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+@media  screen and (max-width:768px) {
+    .header{
+        flex-direction: column;
+        /* flex-basis: 100%; */
+        /* flex-wrap: wrap; */
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .info{
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+    }
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    #objective{
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+}
+/* media queries ends */

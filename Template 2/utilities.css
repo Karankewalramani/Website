@@ -1,0 +1,36 @@
+.d-flex{
+    display: flex;
+}
+.d-col{
+    flex-direction: column;
+}
+.d-row{
+    flex-direction: row;
+}
+.text-success{
+    color: green;
+}
+.btn{
+    border: 0px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.btn-success{
+    background-color: green;
+    color: #fff;
+}
+
+.first-image{
+    height: 200px;
+    width: 450px;
+  }
+  .team-image{
+    margin: 50px;
+    border-radius: 5000px;
+    padding: 10px;
+    height: 450px;
+    width: 500px;
+  }
